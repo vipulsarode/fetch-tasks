@@ -14,9 +14,9 @@ git clone https://github.com/vipulsarode/fetch-tasks.git
 
 ```bash
 # Create an Docker Image
-docker build -t my-notebook-container .
+docker build -t fetch-tasks-container .
 
 # Run Docker Container
-docker run -p 8888:8888 -v $(pwd):/workspace my-notebook-container
+docker run -p 8888:8888 -v $(pwd):/workspace fetch-tasks-container
 
 ```
